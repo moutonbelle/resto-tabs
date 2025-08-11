@@ -36,14 +36,18 @@ nav button {
     padding: 1rem;
 }
 
+p {
+    line-height: 1.5em;
+    width: 60ch;
+}
+
 p.greeting {
     font-size: 2rem;
     font-weight: bold;
-    line-height: 1.5em;
-    width: 400px;
+    width: 500px;
 }
 
-.logo {
+img.main-image {
     width: 300px;
     border-radius: 1%;
 }

@@ -5,11 +5,12 @@ export default function renderHome () {
 
     let logo = document.createElement("img");
     logo.src = logoURL;
-    logo.classList.add("logo");
+    logo.classList.add("main-image");
 
     let welcome = document.createElement("p");
     welcome.classList.add("greeting")
     welcome.textContent = "Welcome to Sheepy's Lamb Stand! Serving the best rack of lamb south of Colorado.";
 
+    content.replaceChildren();
     content.append(logo, welcome);
 }
